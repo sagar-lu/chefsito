@@ -831,7 +831,7 @@
 
             Swal.fire({
                 title: 'Chefcito está cocinando...',
-                text: 'Creando algo delicioso con Gemini 2.0 Flash-Lite',
+                text: 'Creando algo delicioso ✨',
                 allowOutsideClick: false,
                 didOpen: () => { Swal.showLoading(); }
             });
@@ -857,7 +857,7 @@
             Swal.fire({
                 title: '✨ ¡Listo!',
                 html: `<div class="text-left text-sm p-4 bg-gray-50 rounded-xl max-h-[60vh] overflow-y-auto prose prose-sm">${marked.parse(recetaMD)}</div>`,
-                confirmButtonText: 'Guardar en Favoritos (Simulado)',
+                confirmButtonText: 'Ok',
                 customClass: { popup: 'rounded-2xl' }
             });
         }
